@@ -27,7 +27,7 @@ bool CApplication::Run( void )
 		{
 			ACE_DEBUG( ( LM_DEBUG, "(%t) On %D\n" ) );
 			ACE_DEBUG( ( LM_DEBUG, "(%t) Unable to read app.configFile...\n\n" ) );
-			return  -1;
+			return  false;
 
 		}
 
